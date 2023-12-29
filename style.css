@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{height: 60px;
+       background-color: #231F20;
+       color: white;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       }
+       
+
+.nav-logo{height: 50px;
+        width: 100px;}
+
+.logo{background-image: url(logo.png);
+      height: 50px;
+      width: 100px;
+      background-size: cover;
+}
+.border{border: 2px solid transparent;}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.add1{font-size: 0.8rem;
+margin-left: 10px;}
+
+.add2{font-size: 1rem;
+    margin-left: 5px;}
+
+.addresss{display: flex;
+align-items: center;          
+}
+
+
+.nav-search{justify-content: space-evenly;
+    display: flex;
+background-color: pink;
+width: 800px;
+height: 40px;
+border-radius: 4px;}
+
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border: none;
+}
+
+.sel{background-color: #f3f3f3;
+width: 50px;
+text-align: center;
+border-radius: 4px;
+border-top-left-radius: 4px;
+border-bottom-left-radius:4px ;
+border: none;}
+
+.search-input{width:1500px;
+font-size: 1rem;}
+
+.nav-search:hover{border:2px solid orange}
+
+.search-icon{align-items: center;
+width: 45px;
+display:flex;
+justify-content: center;
+font-size: 1.3rem;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+color: black;
+background-color: rgb(199, 236, 111);}
+
+
+span{font-size: 0.7rm;}
+
+.n2{font-size: 0.85;}
+
+.cart{font-size: 30px;}
+.navcart border {font-size: 0.85rem;
+font-weight: 700;}
+
+.panel{background-color: #222f3d;
+height: 40px;
+display: flex;
+color: white;
+justify-content: space-evenly;
+align-items: center;}
+
+.panelall{display: flex;}
+
+.panel-option p{display: inline;
+color: white;
+align-content: center;
+margin-left: 15px;
+}
+
+.panel-deals{font-size: 0.9rem;
+    font-weight: 700;}
+
+
+.panel-option{width: 70%;}
+
+
+/*herosection*/
+
+.herosection{background-image: url(ama.png);
+height:300px ;
+background-size: cover;
+color: black;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+
+.heromess{background-color: white;
+color: black;
+bottom: 25px;
+align-items: flex-end;
+margin-bottom: 10px;}
+
+heromess a{background-color: pink;}
+
+.shop-section{display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: pink;}
+.box{border: 2px solid black;
+height: 300px;width: 22%;
+background-color: white;
+}
+
+.box{height: 380px;
+width: 343px;
+background-color: white;
+border: 2px solid black;
+padding: 20px 0px 15px;
+margin: 15px;
+flex-wrap: wrap;}
+
+.box-img{height: 300px;
+background-image: cover;
+margin-top: 1rem;
+margin-bottom: 1rem;
+flex-wrap: wrap;}
+
+.box-content{margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.box-contentp{color: #007185;}
+
+.h2{text-align: center;
+justify-content:space-evenly ;}
+
+
+.footer{margin: 15px;}
+
+
+.foot-panel1{background-color: #37475a;
+color: white;
+height: 50px;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;}
+
+.foot-panel2{background-color: #222f3d;
+color: white;
+height: 200px;
+display: flex;
+justify-content: space-evenly;}
+
+ul a{display: block;
+margin-top: 8px;}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{background-image: url(logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;}
+
+    .footpanel4{background-color: #0f1111;
+        color:white;
+        height: 100px;
+        text-align: center;
+    }
+
+    .pages{font-size: 0.7rem;
+    text-align: center;
+   padding-top: 25px;}
+
+   .copyright{padding-top: 5px;}
